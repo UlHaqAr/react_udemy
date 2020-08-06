@@ -1,0 +1,19 @@
+react apps run in the browser and not in the server. we dont have to wait for server response to render a page.
+react component can be thought of as custom html components.
+
+basic needs to create build flow:
+	- dependency management - react/reactDOM
+	- bundler - webpack
+	- compiler - babel
+	- dev server to test code on our local machine 
+	
+npm install create-react-app -g
+navigate to path where u wanna create react folder
+create-react-app <name> --scripts-version 1.1.5
+
+inside 'public' folder u will find 'index.html' and it has a div with id 'root'. this is where we
+will mount our reacta app.
+the manifest.json has all the meta data.
+
+src folder :
+	- App.js has the component(class) which is imported by index.js and rendered to the 'root' div in index.html.	
