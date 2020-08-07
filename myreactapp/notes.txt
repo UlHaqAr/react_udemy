@@ -7,6 +7,6 @@ create branch:
 	- do ur changes
 	- check the modified files
 	- > git status
-	- commit 
+	- commit (i did from VS Code - commit+push)
 	- > git add .
 	- > git commit -m 'commit message'
