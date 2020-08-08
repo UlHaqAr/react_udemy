@@ -1,4 +1,5 @@
 import React from 'react';
+import './Person.css'
 
 //creating a functional component person with basic ES6 syntax
 //and returning JSX
@@ -9,7 +10,7 @@ const person = (props) => {
     // return <p>i m a person. i am {Math.floor(Math.random()*20)} old</p>;
     return (
         //u can also pass reference of method from App component to person component ex personclick
-        <div>
+        <div className="Person">
             <p>i m {props.name}. i am {props.age} old</p>
             <p onClick={props.personclick}>{props.children}</p>
             <input type="text" onChange={props.personChange} value={props.name} />

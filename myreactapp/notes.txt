@@ -20,3 +20,8 @@ React hooks - useState, useCallback etc. They make using functional components e
 there are two ways to pass arguments to handler
 	- onClick={()=>this.switchNameHandler('Anish')}
 	- personclick={this.switchNameHandler.bind(this, 'Mandy2')}  --> preferred
+
+css -> margin
+	a b; top/bottom + left/right
+    a b c; top+right/left+bottom
+    a b c d; top right bottom left
