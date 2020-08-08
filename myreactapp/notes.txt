@@ -10,3 +10,13 @@ create branch:
 	- commit (i did from VS Code - commit+push)
 	- > git add .
 	- > git commit -m 'commit message'
+
+Dont pass parenthesis in the method name below
+onClick={this.switchNameHandler}, else it will execute it while rendering. 
+We just want to pass the reference to handler.
+
+React hooks - useState, useCallback etc. They make using functional components easier.
+
+there are two ways to pass arguments to handler
+	- onClick={()=>this.switchNameHandler('Anish')}
+	- personclick={this.switchNameHandler.bind(this, 'Mandy2')}  --> preferred
